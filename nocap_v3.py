@@ -106,6 +106,7 @@ while True:
                     cv2.putText(img, "NoCAP", org, font, 1, (255, 0, 0), 2)
     else:
         # 디텍팅 모드가 꺼져있을 때 수행되는 코드 (여기서는 아무 것도 수행하지 않음)
+        # 디텍팅 모드가 꺼져있을 때 수행되는 코드 (여기서는 아무 것도 수행하지 않음)
         pass
     
     cv2.imshow("Image", img)
