@@ -11,7 +11,7 @@ def getKey(keyName):
     for eve in pygame.event.get(): pass
     keyInput = pygame.key.get_pressed()
     myKey = getattr(pygame, 'K_{}'.format(keyName))
-    print('K_{}'.format(keyName))
+    # print('K_{}'.format(keyName)) # key log
 
     if keyInput[myKey]:
         ans = True
